@@ -45,9 +45,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/idea_hub/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/idea_hub/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/idea_hub/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/idea_hub/v/46078ec6737e6b17dc9b68bc9f63b9058652f211/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/idea_hub/v/46078ec6737e6b17dc9b68bc9f63b9058652f211/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/idea_hub/v/46078ec6737e6b17dc9b68bc9f63b9058652f211/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -61,9 +61,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/idea_hub/v/46078ec6737e6b17dc9b68bc9f63b9058652f211/">permalink</a>)
+(<a href="https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/idea_hub/tree/46078ec6737e6b17dc9b68bc9f63b9058652f211">lubianat/idea_hub@46078ec</a>
+from <a href="https://github.com/lubianat/idea_hub/tree/b0d39b418c92d2179aaacae0feb04a8c22fe5a39">lubianat/idea_hub@b0d39b4</a>
 on September 26, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -78,6 +78,111 @@ Computational Systems Biology Laboratory, University of São Paulo, Brazil
 </small></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
+<h1 id="reviews">Reviews</h1>
+<h2 id="a-review-of-cell-type-annotation-toolsmethods">A review of cell-type annotation tools/methods</h2>
+<ul>
+<li><p>Open collaborative review.</p></li>
+<li><p>Questions: what has been proposed so far? Which packages/modules are available?</p></li>
+</ul>
+<h2 id="a-review-of-single-cell-analysis-frameworks">A review of single-cell analysis frameworks</h2>
+<ul>
+<li><p>Question: What are the <em>de facto</em> standards for each step?</p></li>
+<li><p>Python / R / Julia / Other</p></li>
+<li><p>Seurat / Bioconductor SingleCellExperiment?</p></li>
+<li><p>Search on EuropePMC “single-cell RNA sequencing” AND (FIRST_PDATE:2019) AND (((SRC:MED OR SRC:PMC OR SRC:AGR OR SRC:CBA) NOT (PUB_TYPE:“Review”)))</p></li>
+<li><p>Review top 100.</p></li>
+</ul>
+<p>Class:</p>
+<pre><code>- Method
+- Primary analysis
+- Reanalysis</code></pre>
+<p>Use the <a href="https://app.syrf.org.uk/home">Systematic Review Facility</a>.</p>
+<h1 id="considerations-based-on-information-theory-and-human-communication">Considerations based on information theory and human communication</h1>
+<p>(Written in Portuguese)</p>
+<p>Modelagem de frases ambíguas</p>
+<p>Pa = probabilidades da percepção do ouvinte na perspectiva do falante
+Pb = probabilidades a percepção do ouvinte de fato</p>
+<h3 id="duas-opções-no-modelo-comentário-positivo-e-comentário-negativo">Duas opções no modelo: comentário positivo e comentário negativo</h3>
+<p>P(X_intent = positive_comment) + P(X_intent = negative_comment) = 1</p>
+<h3 id="elementos-a-intenção-a-fala-e-a-conclusão-do-ouvinte">3 elementos: a intenção, a fala e a conclusão do ouvinte</h3>
+<p>X_intent = intenção do falante
+X_spoken = as palavras usadas (“a fala”)
+Y_guess_about_X_intent = a conclusão do ouvinte sobre a intenção do falante</p>
+<p>Y_guess_about_X_intent | X_spoken = a conclusão do ouvinte sobre a intenção do falante dada a fala</p>
+<h3 id="a-resolução-de-intenção-por-bayes">A resolução de intenção por Bayes</h3>
+<p>O ouvinte conclui baseado em preconcepções a partir da fala. Por Bayes (exemplificando):</p>
+<p>P(Y_guess_about_X_intent = “positive_comment” | X_spoken = “example”) =</p>
+<p>P(X_spoken = “example”) * P( X_spoken = “example” | Y_guess_about_X_intent = “positive_comment”)</p>
+<h3 id="exemplificando-x_spoken-para-esclarecer">Exemplificando X_spoken para esclarecer</h3>
+<p>P(X_spoken = “example”) = Probabilidade de você falar “example” exatamente daquele jeito, com aquela escolha de palavras.
+Dada todas as possibilidades de fala, qual é a probabilidade de você falar exatamente aquilo?</p>
+<p>Bem, isso é, rigorosamente, não-modelável, mas podemos estimar com modelos linguísticos probabilísticos.</p>
+<p>Para os fins aqui, vamos supor que há apenas 4 frases possíveis, todas igualmente prováveis <em>a priori</em>.</p>
+<p>P(X_spoken == 1) = 0.25
+P(X_spoken == 2) = 0.25
+P(X_spoken == 3) = 0.25
+P(X_spoken == 4) = 0.25</p>
+<h3 id="exemplificanfo-p-x_spoken-example-x_intent-positive_comment">Exemplificanfo P( X_spoken = “example” | X_intent = “positive_comment”)</h3>
+<p>P(X_spoken = “example” | X_intent = “positive_comment”) é a probabilidade de você falar “example” quando sua intenção é positiva.</p>
+<p>Para as 10 frases possíveis, digamos que metade sejam consideradas por você mais positivas e metade mais negativas. Mas você nem sempre
+usa a mesma frase quando que passar uma mensagem positiva. Vamos supor que:</p>
+<p>Dado a intenção positiva, , por exemplo:</p>
+<p>P(X_spoken == 1 | X_intent = “positive_comment”) = 0.5
+P(X_spoken == 2 | X_intent = “positive_comment”) = 0.3
+P(X_spoken == 3 | X_intent = “positive_comment”) = 0.2
+P(X_spoken == 4 | X_intent = “positive_comment”) = 0.0</p>
+<p>Dada uma intenção negativa, , por exemplo:</p>
+<p>P(X_spoken == 1 | X_intent = “negative_comment”) = 0.0
+P(X_spoken == 2 | X_intent = “negative_comment”) = 0.2
+P(X_spoken == 3 | X_intent = “negative_comment”) = 0.3
+P(X_spoken == 4 | X_intent = “negative_comment”) = 0.5</p>
+<h3 id="exemplificando-y_guess_about_x_intent-para-esclarecer">Exemplificando Y_guess_about_X_intent para esclarecer</h3>
+<p>Agora, o ouvinte não sabe o que X_intent é, de fato. O que ele tem é Y_guess_about_X_intent, que é modificada pela fala.
+Há uma preconcepção, e essa preconcepção é atualizada. E é isso que o falante tem que pensar: no que a frase significa para
+o ouvinte, e não o que significa para ele.</p>
+<p>Esse chute tem um valor a priori e um a posteriori (Y_guess_about_X_intent|X_spoken).</p>
+<h3 id="exemplificanfo-p-x_spoken-example-y_guess_about_x_intent-positive_comment">Exemplificanfo P( X_spoken = “example” | Y_guess_about_X_intent = “positive_comment”)</h3>
+<p>O ouvinte, então, tem seus modelos mentais de uso de linguagem.</p>
+<h4 id="um-cenário">Um cenário</h4>
+<p>Se o ouvinte tem a mesma percepção de uso de vocabulário do falante, então as probabilidadese de repetem:</p>
+<p>P(X_spoken == 1 | Y_guess_about_X_intent = “positive_comment”) = 0.5
+P(X_spoken == 2 | Y_guess_about_X_intent = “positive_comment”) = 0.3
+P(X_spoken == 3 | Y_guess_about_X_intent = “positive_comment”) = 0.2
+P(X_spoken == 4 | Y_guess_about_X_intent = “positive_comment”) = 0.0</p>
+<p>P(X_spoken == 1 | Y_guess_about_X_intent = “negative_comment”) = 0.0
+P(X_spoken == 2 | Y_guess_about_X_intent = “negative_comment”) = 0.2
+P(X_spoken == 3 | Y_guess_about_X_intent = “negative_comment”) = 0.3
+P(X_spoken == 4 | Y_guess_about_X_intent = “negative_comment”) = 0.5</p>
+<h4 id="outro-cenário">Outro cenário</h4>
+<p>Mas é possível que, por exemplo, na cultura do ouvinte, a frase 1 tenha uma palavra muito preconceituosa.
+O falante não sabe disso, mas isso pode afeta o ouvinte:</p>
+<p>P(X_spoken == 1 | Y_guess_about_X_intent = “positive_comment”) = 0.0
+P(X_spoken == 2 | Y_guess_about_X_intent = “positive_comment”) = 0.6
+P(X_spoken == 3 | Y_guess_about_X_intent = “positive_comment”) = 0.4
+P(X_spoken == 4 | Y_guess_about_X_intent = “positive_comment”) = 0.0</p>
+<p>P(X_spoken == 1 | Y_guess_about_X_intent = “negative_comment”) = 0.4
+P(X_spoken == 2 | Y_guess_about_X_intent = “negative_comment”) = 0.1
+P(X_spoken == 3 | Y_guess_about_X_intent = “negative_comment”) = 0.2
+P(X_spoken == 4 | Y_guess_about_X_intent = “negative_comment”) = 0.3</p>
+<h2 id="o-funcionamento-e-os-ruidos-do-diálogo">O funcionamento e os ruidos do diálogo</h2>
+<p>Além das probabilidades de fato, a percepção de probabilidades pelo falante tem um papel importante.</p>
+<p>A tarefa objetiva do falante é maximizar a P(Y_guess_about_X_intent = X_intent).</p>
+<p>O falante sabe que a informação que o ouvinte tem é o a fala (“X_spoken”).</p>
+<p>Logo,, na concepção do falante (Pfala) a probabilidade do outro entender aquilo que ele está falando:
+P_fala(Y_guess_about_X_intent|X_spoken) = P_fala(X_spoken) x P_fala(X_spoken|Y_guess_about_X_intent) / P_fala(Y_guess_about_X_intent)</p>
+<p>Os diferentes P_fala podem divergir dos P_real, e isso causa conflito de diálogo.</p>
+<h1 id="implicações-dos-fatores-latentes">Implicações dos fatores latentes</h1>
+<h2 id="divergência-sobre-percepção-de-intenção-do-falante-afeta-o-diálogo">Divergência sobre percepção de intenção do falante afeta o diálogo</h2>
+<p>Se Pfala(Y_guess_about_X_intent) e Preal(Y_guess_about_X_intent) são muito diferentes, a comunicação fica complicada.</p>
+<h2 id="divergência-sobre-a-predisposição-do-ouvinte-entender-que-alguém-com-intenção-y-falaria-algo-da-forma-x">Divergência sobre a predisposição do ouvinte entender que alguém com intenção “Y” falaria algo da forma “X”</h2>
+<p>P_fala(X_spoken/Y_guess_about_X_intent) e Preal(X_spoken/Y_guess_about_X_intent) podem ser diferentes.
+Uma pessoa ‘grossa’ pode usar um conjunto de palavras e achar que está sendo positivo, mas para o interlocutor pode ser negativo.</p>
+<h2 id="divergência-sobre-o-uso-geral-de-frases">Divergência sobre o uso geral de frases</h2>
+<p>O último fator que entra no cálculo é o P(X_spoken). O P_real(X_spoken) é a distribuição de frases para o ouvinte. Se o vocabulário
+é o mesmo, é provável que isso seja parecido para os dois.</p>
+<p>O uso de gírias, por exemplo, pode complicar nesse caso. Se a outra pessoa não conhece uma gíria, a probabilidade de uso dessa frase no
+geral é muitoo baixa.</p>
+<p>Para fins práticos, contudo, considerarei Pfala(X_spoken) = Preal(X_spoken), mudando apenas as probabilidades condicionais.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
