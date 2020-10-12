@@ -343,3 +343,11 @@ content/03.dialogue.md:144:Pfala
 content/03.dialogue.md:144:práticos
 content/03.dialogue.md:144:Preal
 content/03.dialogue.md:144:probabilidades
+content/04.annotation.md:1:TypemakeR
+content/04.annotation.md:3:binarized
+content/04.annotation.md:3:dataframe
+content/04.annotation.md:8:TechnotypeR
+content/04.annotation.md:10:technotype
+content/04.annotation.md:16:QXXX
+content/04.annotation.md:64:technotype
+content/04.annotation.md:65:technotype

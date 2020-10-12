@@ -3,8 +3,8 @@ author-meta:
 - Tiago Lubiana
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-26'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Project idea\" />\n<meta name=\"citation_title\" content=\"Project idea\" />\n<meta property=\"og:title\" content=\"Project idea\" />\n<meta property=\"twitter:title\" content=\"Project idea\" />\n<meta name=\"dc.date\" content=\"2020-09-26\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-26\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/idea_hub/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/idea_hub/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/idea_hub/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/idea_hub/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/idea_hub/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/idea_hub/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-10-12'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Project idea\" />\n<meta name=\"citation_title\" content=\"Project idea\" />\n<meta property=\"og:title\" content=\"Project idea\" />\n<meta property=\"twitter:title\" content=\"Project idea\" />\n<meta name=\"dc.date\" content=\"2020-10-12\" />\n<meta name=\"citation_publication_date\" content=\"2020-10-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/idea_hub/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/idea_hub/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/idea_hub/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/idea_hub/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/idea_hub/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/idea_hub/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - idea
 - project
@@ -24,10 +24,10 @@ title: Project idea
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/))
+([permalink](https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/))
 was automatically generated
-from [lubianat/idea_hub@b0d39b4](https://github.com/lubianat/idea_hub/tree/b0d39b418c92d2179aaacae0feb04a8c22fe5a39)
-on September 26, 2020.
+from [lubianat/idea_hub@c341da0](https://github.com/lubianat/idea_hub/tree/c341da01e41e3ac1e130aafe1e9e25314b4c2bab)
+on October 12, 2020.
 </em></small>
 
 ## Authors
@@ -230,6 +230,72 @@ geral é muitoo baixa.
 Para fins práticos, contudo, considerarei Pfala(X_spoken) = Preal(X_spoken), mudando apenas as probabilidades condicionais. 
 
 
+
+# TypemakeR
+
+Given a Seurat object, a binarized dataframe and a maximum number of genes per type, 
+
+find the best combination of markers (using AND, OR, NOR, XOR) that better captures the clusters
+
+
+# TechnotypeR 
+
+A simple annotation package for single-cell RNA-seq data based on the technotype framework.
+
+Reference cell types based on markers.
+
+_sensu stricto_ cell types
+
+ - ID: QXXX
+
+ - Markers:
+
+    - Expresses X OR Y
+        - A1
+        - A2
+    - Expresses X AND Y
+        -B
+        -C
+    - NOT (Expresses X OR Y)
+        -D1
+        -D2
+
+    - NOT (Expresses X AND Y)
+        -F
+        -G
+
+Example
+
+ID: Q001
+label: "human B cell"
+
+(at least 1)
+    - Expresses X OR Y
+        - MS4A1
+        - CD79A
+        - CD79B
+(all)
+    - Expresses X AND Y
+
+(not express at least 1)
+    - NOT (Expresses X OR Y)
+
+(not express all)    
+    - NOT (Expresses X AND Y)
+        - CD3E
+        - CD4
+        - CD8A
+        - NKG7
+
+
+Steps:
+
+    - User decides what counts as expressed --> binarization algorithm
+    - Apply mask to dataset
+    - Cells are labeled with multiple labels.
+        - For each mask, test all cells. 
+            - If a mask fits, label as technotype (e.g, using dataset_ID_Q001)
+            - Relate technotype as a subclass of the uper class (e.g Q001)
 
 ## References {.page_break_before}
 

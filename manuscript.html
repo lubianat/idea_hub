@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Tiago Lubiana" />
-  <meta name="dcterms.date" content="2020-09-26" />
+  <meta name="dcterms.date" content="2020-10-12" />
   <meta name="keywords" content="idea, project, idea" />
   <title>Project idea</title>
   <style>
@@ -28,8 +28,8 @@
   <meta name="citation_title" content="Project idea" />
   <meta property="og:title" content="Project idea" />
   <meta property="twitter:title" content="Project idea" />
-  <meta name="dc.date" content="2020-09-26" />
-  <meta name="citation_publication_date" content="2020-09-26" />
+  <meta name="dc.date" content="2020-10-12" />
+  <meta name="citation_publication_date" content="2020-10-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/idea_hub/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/idea_hub/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/idea_hub/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -61,10 +61,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/idea_hub/v/b0d39b418c92d2179aaacae0feb04a8c22fe5a39/">permalink</a>)
+(<a href="https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/idea_hub/tree/b0d39b418c92d2179aaacae0feb04a8c22fe5a39">lubianat/idea_hub@b0d39b4</a>
-on September 26, 2020.
+from <a href="https://github.com/lubianat/idea_hub/tree/c341da01e41e3ac1e130aafe1e9e25314b4c2bab">lubianat/idea_hub@c341da0</a>
+on October 12, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -183,6 +183,58 @@ Uma pessoa ‘grossa’ pode usar um conjunto de palavras e achar que está send
 <p>O uso de gírias, por exemplo, pode complicar nesse caso. Se a outra pessoa não conhece uma gíria, a probabilidade de uso dessa frase no
 geral é muitoo baixa.</p>
 <p>Para fins práticos, contudo, considerarei Pfala(X_spoken) = Preal(X_spoken), mudando apenas as probabilidades condicionais.</p>
+<h1 id="typemaker">TypemakeR</h1>
+<p>Given a Seurat object, a binarized dataframe and a maximum number of genes per type,</p>
+<p>find the best combination of markers (using AND, OR, NOR, XOR) that better captures the clusters</p>
+<h1 id="technotyper">TechnotypeR</h1>
+<p>A simple annotation package for single-cell RNA-seq data based on the technotype framework.</p>
+<p>Reference cell types based on markers.</p>
+<p><em>sensu stricto</em> cell types</p>
+<ul>
+<li><p>ID: QXXX</p></li>
+<li><p>Markers:</p>
+<ul>
+<li><p>Expresses X OR Y</p>
+<ul>
+<li>A1</li>
+<li>A2</li>
+</ul></li>
+<li><p>Expresses X AND Y
+-B
+-C</p></li>
+<li><p>NOT (Expresses X OR Y)
+-D1
+-D2</p></li>
+<li><p>NOT (Expresses X AND Y)
+-F
+-G</p></li>
+</ul></li>
+</ul>
+<p>Example</p>
+<p>ID: Q001
+label: “human B cell”</p>
+<p>(at least 1)
+- Expresses X OR Y
+- MS4A1
+- CD79A
+- CD79B
+(all)
+- Expresses X AND Y</p>
+<p>(not express at least 1)
+- NOT (Expresses X OR Y)</p>
+<p>(not express all)<br />
+- NOT (Expresses X AND Y)
+- CD3E
+- CD4
+- CD8A
+- NKG7</p>
+<p>Steps:</p>
+<pre><code>- User decides what counts as expressed --&gt; binarization algorithm
+- Apply mask to dataset
+- Cells are labeled with multiple labels.
+    - For each mask, test all cells. 
+        - If a mask fits, label as technotype (e.g, using dataset_ID_Q001)
+        - Relate technotype as a subclass of the uper class (e.g Q001)</code></pre>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
