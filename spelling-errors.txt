@@ -62,7 +62,7 @@ está
 estimar
 EuropePMC
 exatamente
-Exemplificando
+exemplificando
 Exemplificanfo
 exemplo
 facto
@@ -82,7 +82,7 @@ geral
 gíria
 gírias
 grossa
-Há
+há
 igualmente
 Implicações
 importante
@@ -120,7 +120,7 @@ NKG
 objetiva
 opções
 outra
-outro
+Outro
 ouvinte
 palavra
 palavras
@@ -155,7 +155,7 @@ preconcepção
 preconcepções
 predisposição
 priori
-probabilidade
+Probabilidade
 probabilidades
 probabilidadese
 probabilísticos
@@ -169,7 +169,7 @@ resolução
 rigorosamente
 ruidos
 sabe
-São
+são
 seja
 sejam
 sempre
