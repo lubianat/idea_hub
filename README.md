@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/lubianat/idea_hub/tree/gh-pages) branch hosts the contents of this directory at <https://lubianat.github.io/idea_hub/>.
-The permalink for this webpage version is <https://lubianat.github.io/idea_hub/v/c341da01e41e3ac1e130aafe1e9e25314b4c2bab/>.
+The permalink for this webpage version is <https://lubianat.github.io/idea_hub/v/30c0fa8a3212d2f45798e825f052186eebe50510/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://lubianat.github.io/idea_hub/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`c341da01e41e3ac1e130aafe1e9e25314b4c2bab`](https://github.com/lubianat/idea_hub/commit/c341da01e41e3ac1e130aafe1e9e25314b4c2bab).
+[`30c0fa8a3212d2f45798e825f052186eebe50510`](https://github.com/lubianat/idea_hub/commit/30c0fa8a3212d2f45798e825f052186eebe50510).
